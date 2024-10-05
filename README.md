@@ -39,8 +39,8 @@ The students would apply PCA for the reduction of problem spaces. Their project 
 
 
 # Resources
-* Pathways For Supercomputing
-* ACCESS 
+* Pathways For Supercomputing - Oak Ridge National Laboratory (ORNL)
+* ACCESS - National Science Foundation (NSF)
 * Globus for data transfers
 * Symmetric multiprocessing (SMP) type HPC for OpenMP
 <img width="1143" alt="image" src="https://github.com/user-attachments/assets/cb027a0b-7a36-4201-b310-13017cb90d71">
