@@ -1,37 +1,55 @@
-# Curriculum enhancement of the Parallel Computing course at Jackson State University 
-## Objectives
-* Getting access to HPC resources.
-* Implementing/understanding effective HPC architecture
-* Obtaining large datasets for data analytical problems
-* Design sample projects for parallel programming using OpenMP, MPI, and OpenACC, using C++.
+# Curriculum Enhancement of Parallel Computing Course at Jackson State University 
 
 Target Course(s): CSC425.01 Parallel Computing 
 
-Goal:
-○ Integrating HPC with 
-○ Create and refine course schedules, hands-on labs, etc.
+The course (CSC 425) is for junior- to senior-level Computer Science (CS) and Computer Engineering (CE) students. Based on the curriculum, all students would have already finished programming languages, operating systems, computer architectures, and data structure courses to develop sequential programs.  The course will then focus on implementing parallel algorithms.  
 
-This course (CSC 425) is for junior to senior Computer Science (CS) and Computer Engineering (CE) students. Based on the curriculum, all students should have already finished programming languages, operating systems, computer architectures, and data structure courses to develop sequential programs.  The course, will focus on implementing parallel algorithms.  The topics of the course include programming languages with libraries such as OpenMP, MPI, and OpenACC. 
+## Objectives:
+* Refine curriculum to enable students to understand and be skilled at parallel computing.
+* Implementing/understanding effective HPC architecture.
+* Get access to HPC resources.
+* Obtaining large datasets for data analytical problems.
+* Design sample projects for parallel programming using OpenMP, MPI, and OpenACC, using C/C++.
+* Apply the knowledge on sorting, graph, search, dynamic programming, and Fast Fourier Transform problems.
 
-The programming models consist of several subareas: 
-Data parallelism
-Task parallelism
-Multithreaded programming
-Shared memory model
-Message-passing model
+The programming models would consist of several subareas: 
+* Data parallelism
+* Task parallelism
+* Multithreaded programming
+* Shared memory model
+* Message-passing model
 
-These projects require a large space for large data sets and computing power. As part of this effort, some of the NSF/IEEE-TCPP curriculum initiatives on Parallel and Distributed Computing (PDC) modules were integrated into department-wide core and elective courses offered in both fall and spring semesters. From CSC 325 Operating Systems (core), the students learn how to write simple parallel programs with the POSIX threads library.
+# Projects for the class
+Projects would be designed to take advantage of large data sets and computing power. As part of this effort, some of the NSF/IEEE-TCPP curriculum initiatives on Parallel and Distributed Computing (PDC) modules would be integrated into department-wide core and elective courses offered in both fall and spring semesters. From CSC 325 Operating Systems (core), the students would learn how to write simple parallel programs with the POSIX threads library.
+
+# Example projects
+1. Genomics Big Data Problem:  
+The simple DNA problem: 
+DNA sequences are represented as character strings, with each character representing a nucleotide type. The DNA sequence alignment problem, or pattern searching problem, identifies coincidences of nucleotide strings in a long DNA sequence. Multiple pattern matching is a complex problem in a DNA sequence. Our assignment addresses this by finding matches in a random main DNA sequence with multiple nucleotide patterns, which can also be random sequences or exact copies of parts of the main sequence. The students are going to use a brute-force algorithm that checks each pattern at every possible position in the DNA sequence, offering parallelization opportunities. The program identifies patterns found in the sequence and their starting positions. The project requires the implementation of direct parallelization opportunities at two levels: patterns and starting positions. An example algorithm for genome similarity identification from Machbah Uddin et al [2] would be parallelized for the student projects. 
+
+2. Principal Component Analysis (PCA):                                                                                                                                                  
+The students would apply PCA for the reduction of problem spaces. Their project codes would be parallelized using OpenMP, MPI, and OpenACC. These would be applied on image datasets obtained from different resources.
+
+# Datasets
+* Github repositories
+* https://data.world/datasets/
+* Designsafe-CI - https://www.designsafe-ci.org 
+* https://Kaggle.com
+* pip install genomic-benchmarks (dataset would be installed directly on the machine)
+
 
 # Resources
-○ Symmetric multiprocessing (SMP) type HPC  for OpenMP
-○ Pathways For Supercomputing
-○ ACCESS 
-○ Globus for data transfers
-
+* Pathways For Supercomputing
+* ACCESS 
+* Globus for data transfers
+* Symmetric multiprocessing (SMP) type HPC for OpenMP
 <img width="1143" alt="image" src="https://github.com/user-attachments/assets/cb027a0b-7a36-4201-b310-13017cb90d71">
 
 
-## Reference and Resources : HPC: access-co.org 
+## Reference : 
 1]. Victor Eijkhout, The Art of High Performance Computing, 3rd edition 2022.
+
+2]. Machbah Uddin et al. A fast and efficient algorithm for DNA sequence similarity identification. Complex & Intelligent Systems (2023) 9:1265–1280 
+
 
 ## 
